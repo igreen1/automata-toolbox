@@ -5,7 +5,8 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "mocha __tests__/**/*.js"
+    "test": "mocha __tests__/**/*.js",
+    "deploy": "git merge webdev; git push"
   },
   "repository": {
     "type": "git",
